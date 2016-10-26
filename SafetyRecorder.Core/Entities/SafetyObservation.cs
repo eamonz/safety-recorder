@@ -19,9 +19,9 @@ namespace SafetyRecorder.Entities
         public Person Observer { get; set; }
 
         /// <summary>
-        /// Gets or sets the observered on.
+        /// Gets or sets the observed on.
         /// </summary>
-        public DateTime ObserveredOn { get; set; }
+        public DateTime ObservedOn { get; set; }
 
         /// <summary>
         /// Gets or sets the location.
