@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5F321F86-5A40-42EA-BC81-4520654C06F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafetyRecorder.DataAccess", "SafetyRecorder.Core\SafetyRecorder.DataAccess.csproj", "{DFCFB988-8D1C-4EAB-9B04-116A82CB24EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{1891177F-A93F-4351-954A-4AEF4258BCDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosting", "Hosting", "{5A8A4881-E351-4205-8173-8FE8779452DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Service", "WebApi.Service\WebApi.Service.csproj", "{51379731-8A6B-4D02-BBC7-0DE28AAF1833}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFCFB988-8D1C-4EAB-9B04-116A82CB24EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCFB988-8D1C-4EAB-9B04-116A82CB24EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCFB988-8D1C-4EAB-9B04-116A82CB24EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCFB988-8D1C-4EAB-9B04-116A82CB24EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51379731-8A6B-4D02-BBC7-0DE28AAF1833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51379731-8A6B-4D02-BBC7-0DE28AAF1833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51379731-8A6B-4D02-BBC7-0DE28AAF1833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51379731-8A6B-4D02-BBC7-0DE28AAF1833}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DFCFB988-8D1C-4EAB-9B04-116A82CB24EC} = {5F321F86-5A40-42EA-BC81-4520654C06F3}
+		{51379731-8A6B-4D02-BBC7-0DE28AAF1833} = {5A8A4881-E351-4205-8173-8FE8779452DD}
+	EndGlobalSection
+EndGlobal
