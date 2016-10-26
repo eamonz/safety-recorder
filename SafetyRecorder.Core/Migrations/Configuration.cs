@@ -25,7 +25,7 @@ namespace SafetyRecorder.Core.Migrations
             context.Persons.AddOrUpdate(x => x.Id,
                 new Person { Id = 1, Name = "Eamon Gray" },
                 new Person { Id = 2, Name = "Fernando Smith" },
-                new Person { Id = 3, Name = "John Papadopolous" }                );
+                new Person { Id = 3, Name = "John Papadopolous" });
         }
     }
 }
