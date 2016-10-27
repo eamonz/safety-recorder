@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosting", "Hosting", "{5A8A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Service", "WebApi.Service\WebApi.Service.csproj", "{51379731-8A6B-4D02-BBC7-0DE28AAF1833}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafetyRecorder.Web", "SafetyRecorder.Web\SafetyRecorder.Web.csproj", "{624ADCB0-032E-4C2F-AD6D-98F8D4EE5C4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{51379731-8A6B-4D02-BBC7-0DE28AAF1833}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51379731-8A6B-4D02-BBC7-0DE28AAF1833}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51379731-8A6B-4D02-BBC7-0DE28AAF1833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624ADCB0-032E-4C2F-AD6D-98F8D4EE5C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624ADCB0-032E-4C2F-AD6D-98F8D4EE5C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624ADCB0-032E-4C2F-AD6D-98F8D4EE5C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624ADCB0-032E-4C2F-AD6D-98F8D4EE5C4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DFCFB988-8D1C-4EAB-9B04-116A82CB24EC} = {5F321F86-5A40-42EA-BC81-4520654C06F3}
 		{51379731-8A6B-4D02-BBC7-0DE28AAF1833} = {5A8A4881-E351-4205-8173-8FE8779452DD}
+		{624ADCB0-032E-4C2F-AD6D-98F8D4EE5C4F} = {1891177F-A93F-4351-954A-4AEF4258BCDB}
 	EndGlobalSection
 EndGlobal

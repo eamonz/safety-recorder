@@ -19,7 +19,7 @@ namespace WebApi.Service.Controllers
         {
             IQueryable<SafetyObservation> safetyObservations = 
                 db.SafetyObservations
-                    .OrderByDescending(o => o.ObserveredOn);
+                    .OrderByDescending(o => o.ObservedOn);
 
             return safetyObservations.ToList().AsEnumerable<SafetyObservation>();
         }
